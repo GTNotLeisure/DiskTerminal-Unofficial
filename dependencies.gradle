@@ -1,24 +1,24 @@
 dependencies {
 
-    api("com.github.GTNewHorizons:GTNHLib:0.11.52:dev")
-    implementation("com.github.GTNewHorizons:Applied-Energistics-2-Unofficial:rv3-beta-1095-GTNH:dev")
-    implementation("com.github.GTNewHorizons:AE2FluidCraft-Rework:1.5.116-gtnh:dev") {
+    api("com.github.GTNewHorizons:GTNHLib:0.11.58:dev")
+    implementation("com.github.GTNewHorizons:Applied-Energistics-2-Unofficial:rv3-beta-1104-GTNH:dev")
+    implementation("com.github.GTNewHorizons:AE2FluidCraft-Rework:1.6.0-gtnh:dev") {
         exclude group: "com.github.GTNewHorizons", module: "Applied-Energistics-2-Unofficial"
     }
     devOnlyNonPublishable("com.github.GTNewHorizons:WirelessCraftingTerminal:1.12.17:dev")
 
-    devOnlyNonPublishable("com.github.GTNewHorizons:NotEnoughEnergistics:1.7.50:dev")
-    devOnlyNonPublishable("com.github.GTNewHorizons:NotEnoughItems:2.8.171-GTNH:dev")
+    devOnlyNonPublishable("com.github.GTNewHorizons:NotEnoughEnergistics:1.8.0:dev")
+    devOnlyNonPublishable("com.github.GTNewHorizons:NotEnoughItems:2.8.175-GTNH:dev")
 
     devOnlyNonPublishable("thaumcraft:Thaumcraft:1.7.10-4.2.3.5:dev")
-    devOnlyNonPublishable("com.github.GTNewHorizons:ThaumicEnergistics:1.7.68-GTNH:dev")
+    devOnlyNonPublishable("com.github.GTNewHorizons:ThaumicEnergistics:1.8.0-GTNH:dev")
 
-    implementation("com.github.GTNewHorizons:GT5-Unofficial:5.09.54.265:dev") {
+    implementation("com.github.GTNewHorizons:GT5-Unofficial:5.09.54.275:dev") {
         exclude group: "com.github.GTNewHorizons", module: "Applied-Energistics-2-Unofficial"
         exclude group: "com.github.GTNewHorizons", module: "AE2FluidCraft-Rework"
     }
 
-    devOnlyNonPublishable("com.github.GTNewHorizons:Baubles-Expanded:2.2.27-GTNH:dev")
+    devOnlyNonPublishable("com.github.GTNewHorizons:Baubles-Expanded:2.2.28-GTNH:dev")
 
     compileOnly(rfg.deobf("curse.maven:cofh-core-69162:2388751"))
 
